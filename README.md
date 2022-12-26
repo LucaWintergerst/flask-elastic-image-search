@@ -58,7 +58,7 @@ Check if the cluster is running using Kibana or `curl`.
 Once the cluster is up and running, let's get the CA certificate out from the Elasticsearch cluster so we can use it in the rest of the setup.
 ```bash
 $ # still in the folder "es-docker"
-$ docker cp image-search-85-es01-1://usr/share/elasticsearch/config/certs/ca/ca.crt ../app/conf/ca.crt
+$ docker cp image-search-85_es01_1://usr/share/elasticsearch/config/certs/ca/ca.crt ../app/conf/ca.crt
 ```
 
 ### 2. Load NLP models 
